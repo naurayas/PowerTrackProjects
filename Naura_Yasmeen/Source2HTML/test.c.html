@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>source2html</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:lightgrey;">
+<pre>
+<span class="comment">/* this is multi-line comment */</span>
+<span class="preprocess_dir">#include </span><span class="header_file">&lt;stdio.h&gt;</span>
+<span class="preprocess_dir">#define MAX 20
+</span><span class="preprocess_dir">#ifdef DEBUG
+</span><span class="preprocess_dir">#endif
+</span><span class="reserved_key1">int</span> main()  <span class="comment">// this is single line comment
+</span>{
+    <span class="reserved_key1">char</span> a = <span class="ascii_char">'A'</span>;
+    <span class="reserved_key1">char</span> str[] = <span class="string">"hello"</span>;
+    <span class="reserved_key1">int</span> x = <span class="numeric_constant">0x10</span>;
+    <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
+}</pre>
+</body>
+</html>
