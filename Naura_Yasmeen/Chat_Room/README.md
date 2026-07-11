@@ -63,6 +63,7 @@ The client provides the following menu:
 3. Exit
 
 After successful login/register:
+
 Chat Options:
 1. Single User Chat
 2. Multi User Chat
